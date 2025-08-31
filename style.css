@@ -1,0 +1,312 @@
+*{
+    color:white;
+}
+nav{
+        color:white;
+        padding:20px;
+        text-decoration:none;
+    }
+    nav:hover{
+        background-color:blue;
+        transition: background-color0.5s;          
+        filter: brightness(60%);
+    }
+    ul,li{
+        display:inline;
+    }
+    ul{
+        margin-left: 80%;
+        padding:20px;
+    }
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("keyboard\ img.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+.one{
+    text-align: center;
+    color:white;
+    padding:20px;
+    margin: auto;
+    border-style: none;
+    border-width: none;
+    border-color: black;
+    
+}
+.one:hover{
+     background-color: grey;
+     color:black;
+     opacity: 0.5;         
+     filter: brightness(60%);
+    transition: background-color0.5s;
+}
+.two{
+    text-align: center;
+}
+.two:hover{
+    color:black;
+    background-color: grey;
+    transition: background-color0.5s;
+}
+.three{
+    text-align: center;
+}
+.three:hover{
+    color:black;
+    background-color: grey;
+    transition: background-color0.5s;
+}
+.ele{
+    text-align: center;
+}
+.ele:hover{
+    background-color: grey;
+     color:black;
+    transition: background-color0.5s;
+}
+.mi{
+    text-align:center;
+}
+.mi:hover{
+    background-color: grey;
+    color:green;
+    opacity: 0.5;          
+    filter: brightness(60%);
+    transition: background-color0.5s;
+}
+.mk{
+    text-align:center;
+}
+.mk:hover{
+    background-color: black;
+    color:white;
+    transition: background-color0.5s;
+}
+.m{
+    text-align:center;
+}
+.g{
+    text-align: center;
+}
+.g:hover{
+    background-color: black;
+    color:white;
+    transition: background-color0.5s;
+}
+.m:hover{
+    background-color: black;
+    color:white;
+    transition: background-color0.5s;
+}
+.ment:hover{
+    color: black;
+    background-color: grey;
+    opacity: 0.5;         
+    filter: brightness(60%);
+    transition: background-color0.5s;
+}
+.white:hover{
+    color:black;
+    background-color: gray;
+    opacity: 0.5;         
+    filter: brightness(60%);
+    transition: background-color0.5s;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table:hover{
+    background-color: none;
+    color: white;
+    transition: background-color0.5s;
+}
+
+table, th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
+th:hover{
+    color:white;
+    background-color: red;
+    transition:background-color0.5s;
+}
+td:hover{
+    color:white;
+    background-color: blue;
+    transition:background-color0.5s;
+}
+marquee{
+    color: white;
+    text-decoration-style:solid ;
+    font-family:sans-serif;
+}
+marquee:hover{
+     background-color: black;;
+     color: white;;
+     transition: background-color0.5s;
+}
+h1:hover{
+     background-color: grey;
+     filter: brightness(50%);
+     transition: background-color0.5s;;
+}
+div{
+    display:block;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+    border:none;
+    overflow:auto;
+    margin:20px  auto;
+    filter:opacity(1);
+    display: inline-block;
+}
+div:hover{
+    background-color:black;
+    color:white;
+    transition: background-color0.5s;
+
+}
+p{
+     display:block;
+     color:white;
+     font-family: 'Times New Roman', Times, serif;
+     padding: 2px;
+     text-align: center;
+
+}
+p:hover{
+    color:white;
+    transition: color0.5s;
+}
+hr{
+    border-width:thick;
+}
+.apple{
+    color:blue;
+    display:horizontal-block;
+    text-decoration:none;
+}
+.apple:hover{
+    background-color:lightgrey;
+    opacity: 0.5;         
+    filter: brightness(60%);
+    transition-duration: 0.1s;
+}
+.bana{
+    display:horizontal-block;
+    text-decoration: none;
+}
+.bana:hover{
+    background-color:none;
+    filter: brightness(50%);
+    transition-duration: 0.1s;
+}
+.prof{
+    text-decoration: none;
+}
+.prof:hover{
+    background-color:lightgrey;
+    opacity: 0.5;         
+    filter: brightness(60%);
+    transition-duration: 0.1s;
+}
+.car{
+    color:white;
+    display:horizontal-block;
+    text-decoration:none;
+}
+.car:hover{
+    color: blue;
+    background-color:green;
+    transition-duration: 0.1s;
+}
+nav.car{
+    display:horizontal-block;
+    color:white;
+    text-decoration: none;
+}
+nav.car:hover{
+    background-color:lightgrey;
+    transition-duration: 0.1s;
+}
+input[type=text] {
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+input[type=number] {
+color: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  display:inline-block;
+  box-sizing: border-box;
+
+}
+input[type=email] {
+color: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  display:inline-block;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  color: black;
+  background-color: green;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=reset] {
+color: black;
+background-color: green;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-decoration: none;
+  float:center;
+  border-radius: 4px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+select {
+    color: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  display:inline-block;
+  box-sizing: border-box;
+}
+option{
+    width: 100%;
+  color:black;
+  padding: 16px 20px;
+}
+input[type=submit]:hover{
+    color:blue;
+    background-color:green ;
+    filter: brightness(50%);
+     transition:color0.5s;
+}
+input[type=reset]:hover{
+    color:blue;
+    background-color:green ;
+    filter: brightness(50%);
+     transition:color0.5s;
+}
