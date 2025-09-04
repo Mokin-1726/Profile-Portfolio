@@ -37,8 +37,8 @@ body{
     
 }
 .one:hover{
-     background-color: grey;
-     color:black;
+     background-color: black;
+     color:white;
      opacity: 0.5;         
      filter: brightness(60%);
     transition: background-color0.5s;
@@ -47,32 +47,32 @@ body{
     text-align: center;
 }
 .two:hover{
-    color:black;
-    background-color: grey;
+    color:white;
+    background-color: black;
     transition: background-color0.5s;
 }
 .three{
     text-align: center;
 }
 .three:hover{
-    color:black;
-    background-color: grey;
+    color:white;
+    background-color: black;
     transition: background-color0.5s;
 }
 .ele{
     text-align: center;
 }
 .ele:hover{
-    background-color: grey;
-     color:black;
+    background-color: black;
+     color:white;
     transition: background-color0.5s;
 }
 .mi{
     text-align:center;
 }
 .mi:hover{
-    background-color: grey;
-    color:green;
+    background-color: black;
+    color:white;
     opacity: 0.5;          
     filter: brightness(60%);
     transition: background-color0.5s;
@@ -102,15 +102,15 @@ body{
     transition: background-color0.5s;
 }
 .ment:hover{
-    color: black;
-    background-color: grey;
+    color: white;
+    background-color: black;
     opacity: 0.5;         
     filter: brightness(60%);
     transition: background-color0.5s;
 }
 .white:hover{
-    color:black;
-    background-color: gray;
+    color:white;
+    background-color:black;
     opacity: 0.5;         
     filter: brightness(60%);
     transition: background-color0.5s;
@@ -188,6 +188,13 @@ p:hover{
 hr{
     border-width:thick;
 }
+.berry{
+    text-decoration: none;
+}
+.berry:hover{
+    color:red;
+    transition:color0.5s;
+}
 .apple{
     color:blue;
     display:horizontal-block;
@@ -239,31 +246,41 @@ nav.car:hover{
 }
 input[type=text] {
     color: black;
-    width: 100%;
+    width: 130px;
     padding: 12px 20px;
     margin: 8px 0;
     border-radius: 4px;
     display:inline-block;
+    transition: width 0.4s ease-in-out;
     box-sizing: border-box;
+}
+input[type=text]:focus{
+    width:100%;
 }
 input[type=number] {
 color: black;
-  width: 100%;
+  width: 130px;
   padding: 12px 20px;
   margin: 8px 0;
   border-radius: 4px;
   display:inline-block;
   box-sizing: border-box;
-
+}
+input[type=number]:focus{
+    width:100%;
 }
 input[type=email] {
 color: black;
-  width: 100%;
+  width: 130px;
   padding: 12px 20px;
   margin: 8px 0;
   border-radius: 4px;
   display:inline-block;
+  transition: width 0.4s ease-in-out;
   box-sizing: border-box;
+}
+input[type=email]:focus{
+    width:100%;
 }
 input[type=submit] {
   color: black;
