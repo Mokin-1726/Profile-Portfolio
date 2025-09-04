@@ -11,7 +11,7 @@ nav{
     }
     .ten{
         list-style-type: none;
-        margin-left:70%;
+        margin:0;
         padding:0px;
         display: flex;
         bottom: 0;
