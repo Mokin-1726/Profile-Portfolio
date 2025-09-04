@@ -6,17 +6,23 @@ nav{
         padding:20px;
         text-decoration:none;
     }
-    nav:hover{
-        background-color:blue;
-        transition: background-color0.5s;          
-        filter: brightness(60%);
+    .ten,li{
+        float:left;
     }
-    ul,li{
-        display:inline;
+    .ten{
+        list-style-type: none;
+        margin-left:70%;
+        padding:0px;
+        display: flex;
+        bottom: 0;
+        width: 100%;
     }
-    ul{
-        margin-left: 80%;
-        padding:20px;
+    .ten,li,.car{
+        display: block;
+        color:white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
     }
 body{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("keyboard\ img.jpg");
