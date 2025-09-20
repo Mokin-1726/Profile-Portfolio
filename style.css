@@ -6,23 +6,17 @@ nav{
         padding:20px;
         text-decoration:none;
     }
-    .ten,li{
-        float:left;
+    nav:hover{
+        background-color:none;
+        transition: background-color0.5s;          
+        filter: none;
     }
-    .ten{
-        list-style-type: none;
-        margin:0;
-        padding:0px;
-        display: flex;
-        bottom: 0;
-        width: 100%;
+    ul,li{
+        display:inline;
     }
-    .ten,li,.car{
-        display: block;
-        color:white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+    ul{
+        margin-left: 80%;
+        padding:20px;
     }
 body{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("keyboard\ img.jpg");
@@ -30,7 +24,6 @@ body{
     background-size: cover;
     background-position:center;
     background-attachment:fixed;
-    padding:30px;
 }
 .one{
     text-align: center;
@@ -43,42 +36,42 @@ body{
     
 }
 .one:hover{
-     background-color: black;
-     color:white;
-     opacity: 0.5;         
-     filter: brightness(60%);
-    transition: background-color0.5s;
+     background-color: none;
+     color:none;
+     opacity: none;         
+     filter: none;
+    transition: none;
 }
 .two{
     text-align: center;
 }
 .two:hover{
-    color:white;
-    background-color: black;
+    color:black;
+    background-color: grey;
     transition: background-color0.5s;
 }
 .three{
     text-align: center;
 }
 .three:hover{
-    color:white;
-    background-color: black;
+    color:black;
+    background-color: grey;
     transition: background-color0.5s;
 }
 .ele{
     text-align: center;
 }
 .ele:hover{
-    background-color: black;
-     color:white;
+    background-color: grey;
+     color:black;
     transition: background-color0.5s;
 }
 .mi{
     text-align:center;
 }
 .mi:hover{
-    background-color: black;
-    color:white;
+    background-color: grey;
+    color:green;
     opacity: 0.5;          
     filter: brightness(60%);
     transition: background-color0.5s;
@@ -108,17 +101,17 @@ body{
     transition: background-color0.5s;
 }
 .ment:hover{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: grey;
     opacity: 0.5;         
     filter: brightness(60%);
     transition: background-color0.5s;
 }
 .white:hover{
-    color:white;
-    background-color:black;
-    opacity: 0.5;         
-    filter: brightness(60%);
+    color:none;
+    background-color: none;
+    opacity: none;         
+    filter: none;
     transition: background-color0.5s;
 
 }
@@ -163,11 +156,11 @@ h1:hover{
      transition: background-color0.5s;;
 }
 div{
-    
+    display:block;
     color:white;
     font-family: 'Times New Roman', Times, serif;
     padding: 2px;
-    border:15px;
+    border:none;
     overflow:auto;
     margin:20px  auto;
     filter:opacity(1);
@@ -194,13 +187,6 @@ p:hover{
 hr{
     border-width:thick;
 }
-.berry{
-    text-decoration: none;
-}
-.berry:hover{
-    color:red;
-    transition:color0.5s;
-}
 .apple{
     color:blue;
     display:horizontal-block;
@@ -222,7 +208,6 @@ hr{
     transition-duration: 0.1s;
 }
 .prof{
-    border:2px solid powderblue;
     text-decoration: none;
 }
 .prof:hover{
@@ -237,7 +222,7 @@ hr{
     text-decoration:none;
 }
 .car:hover{
-    color: blue;
+    color: none;
     background-color:green;
     transition-duration: 0.1s;
 }
@@ -252,41 +237,31 @@ nav.car:hover{
 }
 input[type=text] {
     color: black;
-    width: 130px;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     border-radius: 4px;
     display:inline-block;
-    transition: width 0.4s ease-in-out;
     box-sizing: border-box;
-}
-input[type=text]:focus{
-    width:100%;
 }
 input[type=number] {
 color: black;
-  width: 130px;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   border-radius: 4px;
   display:inline-block;
   box-sizing: border-box;
-}
-input[type=number]:focus{
-    width:100%;
+
 }
 input[type=email] {
 color: black;
-  width: 130px;
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   border-radius: 4px;
   display:inline-block;
-  transition: width 0.4s ease-in-out;
   box-sizing: border-box;
-}
-input[type=email]:focus{
-    width:100%;
 }
 input[type=submit] {
   color: black;
@@ -334,4 +309,26 @@ input[type=reset]:hover{
     background-color:green ;
     filter: brightness(50%);
      transition:color0.5s;
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color:darkblue;
+  display:flex;
+  
+}
+
+ul li a{
+  color:white;
+  padding: 14px 16px 20px;
+  display: block;
+  text-decoration: none;
+  align-items: right;
+}
+ul li a:hover:not(.active){
+  background-color: green;
+}
+ul li a.active{
+  background-color: blue;
 }
