@@ -188,15 +188,13 @@ hr{
     border-width:thick;
 }
 .apple{
-    color:blue;
+    color:white;
     display:horizontal-block;
     text-decoration:none;
 }
 .apple:hover{
-    background-color:lightgrey;
-    opacity: 0.5;         
-    filter: brightness(60%);
-    transition-duration: 0.1s;
+    color:black;
+    transition: color0.5s;
 }
 .bana{
     display:horizontal-block;
